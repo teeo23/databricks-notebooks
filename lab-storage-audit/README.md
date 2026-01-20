@@ -27,10 +27,7 @@ total size of all files contained within that folder including all subfolders.
 Example Output:
 The displayed table should look like this:
 
-Folder	                        Size_GB
-/mnt/lab/unrestricted/FolderA/	2340.45
-/mnt/lab/unrestricted/FolderB/	1876.12
-/mnt/lab/unrestricted/FolderC/	1520.78
+<img width="703" height="171" alt="image" src="https://github.com/user-attachments/assets/b75bf2ea-67d6-4ef0-9972-19e4b848c789" />
 
 ---
 
