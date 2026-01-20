@@ -18,6 +18,21 @@ storage usage needs to be audited or monitored.
 - Uses `display(df)` so results can be **downloaded as CSV from Databricks UI**
 
 ---
+## Output 
+
+The script outputs a Spark DataFrame displayed using Databricks display().
+Each row represents a top-level folder under the configured root path, with the
+total size of all files contained within that folder including all subfolders.
+
+Example Output:
+The displayed table should look like this:
+
+Folder	                        Size_GB
+/mnt/lab/unrestricted/FolderA/	2340.45
+/mnt/lab/unrestricted/FolderB/	1876.12
+/mnt/lab/unrestricted/FolderC/	1520.78
+
+---
 
 ## Requirements
 
