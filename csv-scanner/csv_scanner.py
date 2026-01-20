@@ -50,7 +50,7 @@ for i, row in df.iterrows():
 
         if '*' in cell_value:
             asterisks_found = True
-            print(f"✳️ Found '*' in row {i + 1}, column '{col}': {cell_value}")
+            print(f"Found '*' in row {i + 1}, column '{col}': {cell_value}")
 
         if cell_value.startswith(formula_triggers):
             formula_triggers_found = True
