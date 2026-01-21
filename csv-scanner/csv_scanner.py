@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import re
 
-csv_path = os.path.expanduser("~/Downloads/National_Statistics_Postcode_Lookup_UK_20251007.csv")  
+csv_path = os.path.expanduser("~/Downloads/yourpathto.csv")  
 
 df = pd.read_csv(csv_path)
 #print(df.head())
